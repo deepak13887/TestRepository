@@ -47,5 +47,6 @@ function foo() {
     return obj;
 }
 
+//this function passes unsafe inputs
 foo().another.doit(unsafeInput);	// issue
 foo().another.doit(safeInput);
