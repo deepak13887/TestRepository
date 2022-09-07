@@ -37,6 +37,7 @@ doit2(unsafeInput);		// issue
 doit2(safeInput);
 
 var obj = new Object();
+var obj1 = new Object();
 obj.another = new Object();
 var alias = obj.another;
 obj.another.doit = doit2;
